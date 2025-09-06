@@ -1,19 +1,15 @@
 ---
-title: "Learning in Games: Reproduction Package"
+title: "On the Comparative Performance of Machine Learning and Economic Models for Risky Decision-Making"
 author: "Mateus Hiro Nagata"
 date: "6/1/2025"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-# Learning in Games: [Your Paper Title Here]
+# ML vs DT: On the Comparative Performance of Machine Learning and Economic Models for Risky Decision-Making 
 
 ## Overview
 
-This repository contains the reproduction package for my working paper on learning in games. The paper analyzes [brief description of your research question - e.g., "how players adapt their strategies over repeated interactions" or "convergence properties in experimental game settings"].
+This repository contains the reproduction package for my working paper on machine learning modelling of utility and probability weighting in decision theory.
 
 ## Project Structure
 
