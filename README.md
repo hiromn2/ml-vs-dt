@@ -30,12 +30,7 @@ This repository contains the reproduction package for my working paper on machin
 ## Requirements
 
 ### Software
-- R version 4.0 or higher
-- Required packages:
-```{r packages, eval=FALSE}
-install.packages(c("tidyverse", "ggplot2", "stargazer"))
-# Add other packages you use
-```
+
 
 ### Data
 - [Describe your data source - e.g., "Experimental data from classroom sessions" or "Simulated game data"]
@@ -69,12 +64,3 @@ The analysis produces:
 ## Key Findings
 
 [1-2 sentences summarizing your main results]
-
-## Contact
-
-For questions about this reproduction package, contact: [your email]
-
----
-
-*This package was created for [Course Name/Assignment] at [University Name].*
-# ml-vs-dt
