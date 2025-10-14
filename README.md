@@ -5,11 +5,11 @@ date: "6/1/2025"
 output: github_document
 ---
 
-# ML vs DT: On the Comparative Performance of Machine Learning and Economic Models for Risky Decision-Making 
+# On the Comparative Performance of Machine Learning and Economic Models for Risky Decision-Making 
 
 ## Overview
 
-This repository contains the reproduction package for my working paper on machine learning modelling of utility and probability weighting in decision theory.
+This repository contains the reproduction package for my working paper on machine learning modelling of utility and probability weighting in decision theory. The fundamental idea is to compare economic models (such as cumulative prospect theory), pure ML models (random forests, for example) and hybrid models - economic theory assisted neural networks.
 
 ## Project Structure
 
@@ -18,9 +18,9 @@ This repository contains the reproduction package for my working paper on machin
 │   ├── raw/           # Original experimental data
 │   └── processed/     # Cleaned datasets
 ├── code/
-│   ├── 01_data_cleaning.R
-│   ├── 02_analysis.R
-│   └── 03_figures.R
+│   ├── data_cleaning.py
+│   ├── DT-ML MLE.py
+│   └── 
 ├── output/
 │   ├── figures/       # Generated plots
 │   └── tables/        # Results tables
