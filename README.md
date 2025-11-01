@@ -32,8 +32,7 @@ This comparison provides insights into how well each class captures **utility cu
 
 | Script                             | Description                                                                                                                                                   |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `DS_ML_Data.py`                    | Prepares and preprocesses the dataset for training and evaluation. Includes feature construction and transformations related to decision-theoretic variables. |
-| `DS_ML_Data_2.py`                  | Alternate or extended data preparation script; may include additional cleaning or feature engineering routines.                                               |
+| `DT_ML_Data.py`                    | Prepares and preprocesses the dataset for training and evaluation. Includes feature construction and transformations related to decision-theoretic variables. |
 | `DT-ML MLE.py`                     | Implements Maximum Likelihood Estimation (MLE) for parameter estimation in decision-theoretic models.                                                         |
 | `DT-ML NN.py`                      | Defines and trains hybrid neural network models incorporating economic theory (e.g., constrained layers or custom loss terms).                                |
 | `DT-ML Regularized Regressions.py` | Trains regularized regression models (LASSO, Ridge, Elastic Net) as baseline comparators.                                                                     |
@@ -76,9 +75,9 @@ To reproduce results from the paper:
 2. **Train and evaluate models**
 
    ```bash
-   python DT-ML Trees.py
-   python DT-ML Regularized Regressions.py
-   python DT-ML NN.py
+   python DT-ML_Trees.py
+   python DT-ML_Regularized Regressions.py
+   python DT-ML_NN.py
    ```
 
 3. **Analyze outputs**
@@ -132,8 +131,6 @@ This project is released under the [MIT License](LICENSE).
 
 ```
 ├── data/
-│   ├── raw/           # Original experimental data
-│   └── processed/     # Cleaned datasets
 ├── code/
 │   ├── DT_ML_Data.py #Cleaning data
 │   ├── DT-ML_MLE.py  # MLE estimation of CPT
