@@ -34,8 +34,7 @@ import seaborn as sns
 #from sklearn.inspection import permutation_importance
 
 os.chdir('/Users/hiro/DS-ML')
-from DS_ML_Data import clean
-from DS_ML_Data_2 import clean2
+from DT_ML_Data import clean, clean2
 
 import pickle
 
