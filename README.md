@@ -18,49 +18,32 @@ This repository contains the reproduction package for my working paper on machin
 │   ├── raw/           # Original experimental data
 │   └── processed/     # Cleaned datasets
 ├── code/
-│   ├── data_cleaning.py
-│   ├── DT-ML MLE.py
-│   └── 
+│   ├── DT_ML_Data.py #Cleaning data
+│   ├── DT-ML_MLE.py  # MLE estimation of CPT
+│   ├── DT-ML_NN.py   # NN predictions and hybrid models 
+│   ├── DT-ML_Regularized_Regression.py # LASSO, ->  not insightful
+│   ├── DT-ML_Trees.py # Random Forests and other variations
 ├── output/
 │   ├── figures/       # Generated plots
 │   └── tables/        # Results tables
 └── README.md
 ```
 
-## Requirements
 
 ### Software
 
+Python 3.14.0
 
 ### Data
-- [Describe your data source - e.g., "Experimental data from classroom sessions" or "Simulated game data"]
-- [Note any privacy considerations or data access restrictions]
+- The data is from Vieider, Ferdinand M., et al. "Common components of risk and uncertainty attitudes across contexts and domains: Evidence from 30 countries." Journal of the European Economic Association 13.3 (2015): 421-452
+- Unfortunately, I do not have authorization to publish the data.
 
-## Running the Analysis
-
-To reproduce all results, run the scripts in order:
-
-```{r reproduction, eval=FALSE}
-# Clean and prepare data
-source("code/01_data_cleaning.R")
-
-# Run main analysis
-source("code/02_analysis.R") 
-
-# Generate figures and tables
-source("code/03_figures.R")
-```
-
-**Expected runtime:** Approximately [X minutes] on a standard laptop.
-
-## Main Results
-
-The analysis produces:
-- **Figure 1:** [Brief description - e.g., "Learning curves by treatment group"]
-- **Figure 2:** [Brief description - e.g., "Strategy convergence over rounds"]
-- **Table 1:** [Brief description - e.g., "Summary statistics by condition"]
-- **Table 2:** [Brief description - e.g., "Regression results for learning rates"]
 
 ## Key Findings
 
-[1-2 sentences summarizing your main results]
+What constitutes the pinnacle of decision under risk models? This paper addresses
+this question by comparing a range of models, from popular economic models to black-box
+machine learning algorithms, as well as hybrid approaches in predicting the choice of certainty
+equivalents of risky prospects. The findings demonstrate that there is a relevant gain in descriptive
+prowess in using machine learning techniques. However, this indicates heterogeneity in the
+population rather than inadequacy of the economic models.
