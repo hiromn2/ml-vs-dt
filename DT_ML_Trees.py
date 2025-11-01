@@ -18,8 +18,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import pandas as pd
 
-from hajibeygi import armin
-
 import random
 random.seed(42)
 
@@ -31,7 +29,7 @@ import pickle
 import os
 
 os.chdir('/Users/hiro/DS-ML')
-from DS_ML_Data import clean
+from DT_ML_Data import clean
 #from DS_ML_Data_2 import clean2
 
 #dd = clean2()
