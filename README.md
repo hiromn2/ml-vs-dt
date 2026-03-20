@@ -8,9 +8,9 @@ output: github_document
 
 ---
 
-# 🧠 Machine Learning Modelling of Utility and Probability Weighting in Decision Theory
+# 🧠 On the Comparative Performance of Machine Learning and Economic Models for Risky Decision-Making
 
-This repository contains the **reproduction package** for the working paper *"Machine Learning Modelling of Utility and Probability Weighting in Decision Theory"*.
+This repository contains the **reproduction package** for the working paper *"On the Comparative Performance of Machine Learning and Economic Models for Risky Decision-Making"*.
 
 The project investigates how machine learning methods can model and predict human decision-making under risk, comparing traditional economic frameworks (like **Cumulative Prospect Theory**) with **data-driven** and **hybrid** approaches.
 
